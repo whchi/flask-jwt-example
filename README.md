@@ -1,11 +1,15 @@
 # flask-jwt-example
 
 ## run
-1. enable mongo
+1. install packages
+```sh
+pip install -r requirements.txt
+```
+2. enable mongo
 ```sh
 docker-compose up -d
 ```
-2. start flask
+3. start flask
 ```sh
 FLASK_ENV=development flask run
 ```
